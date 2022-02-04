@@ -2,6 +2,18 @@
 
 Pulls proxies from www.freeproxy.world and adds them to your proxychains config.
 
+## Install
+
+Check python is installed:
+
+    python3 --version
+    
+If not:
+    
+    sudo apt install python3
+
+Then download proxyscraper.py and run.
+
 ## Usage
 
     ./proxyscraper -h
