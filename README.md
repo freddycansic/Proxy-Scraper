@@ -1,3 +1,3 @@
 # Proxy-Scraper
 
-Pulls proxies from www.free-proxy.world and adds them to your proxychains config.
+Pulls proxies from www.freeproxy.world and adds them to your proxychains config.
