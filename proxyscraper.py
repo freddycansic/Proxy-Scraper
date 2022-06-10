@@ -1,10 +1,11 @@
 #!/bin/python3
 
-import requests
 import random
-import argparse 
 import os
 import sys
+import argparse
+
+import requests
 
 GREEN = "\033[92m"
 RED = "\033[91m"
@@ -79,7 +80,7 @@ if args.verbose:
     for proxy in randomsample:
         print(f"{VERBOSE} {proxy}")
 
-with open(args.file_path, "r+") as file:
+with open(args.file_path, "r+", encoding="utf-8") as file:
     lines = file.readlines()
 
     # add proxyscraper tag
